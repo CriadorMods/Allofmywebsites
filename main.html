@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>My WebSites</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      animation: fadeIn 0.7s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+      text-align: center; 
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .text-under {
+      text-align: center;
+      font-size: 14px;
+      color: #4b4b4b;
+      margin-bottom: 10px;
+    }
+
+    .filters {
+      margin-bottom: 20px;
+    }
+
+    .filters label {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    .filters select {
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+    }
+
+    .websites-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center; 
+    }
+
+    .website {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      transition: transform 0.3s ease;
+      width: calc(50% - 10px);
+    }
+
+    .website:hover {
+      transform: translateY(-5px);
+    }
+
+    .website img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .website h2 {
+      margin: 0;
+      color: #333;
+    }
+
+    .website p {
+      color: #666;
+      margin: 0;
+    }
+
+    .website a {
+      display: block;
+      margin-top: 15px;
+      text-decoration: none;
+      color: #ffffff;
+      transition: color 0.3s ease;
+    }
+
+    .website a:hover {
+      color: #0056b3;
+    }
+
+    .visit-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-image: linear-gradient(to right, black, grey);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font: 16px Arial, sans-serif; 
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.visit-button:hover {
+    shadow: #030303;
+}
+
+::-webkit-scrollbar {
+  width: 16px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #2b2a2a; 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #696969; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+#warning-message {
+            margin-top: 20px;
+            padding: 10px;
+            background-image: linear-gradient(to right, red, orange);
+            color: #333;
+            border-radius: 5px;
+            display: none;
+}
+
+        #warning-message .warning-icon {
+            margin-right: 10px;
+}
+
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>My Web Sites!</h1>
+  <div class="text-under">All made by: Criador_Mods :)</div> 
+  <div class="filters">
+    <label for="category">Filter by Category:</label>
+    <select id="category">
+      <option value="all">All</option>
+      <option value="web">Most Useful</option> 
+      <option value="app">I felt like it lol</option>
+    </select>
+  </div>
+  <div class="websites-container" id="websites">
+    
+  </div>
+  <div id="warning-message">
+    <span class="warning-icon"><i class="fas fa-exclamation-triangle"></i></span>
+    <span>I WILL UPDATE THIS EVERYTIME E MAKE A NEW SITE! (and i will add new features to this one as well lol).</span>
+  </div>
+</div>
+
+</body>
+</html>
+
