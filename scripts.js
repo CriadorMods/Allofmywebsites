@@ -34,6 +34,13 @@ document.addEventListener("DOMContentLoaded", function() {
         category: "app",
         image: "website5.png",
         url: "https://criadormods.github.io/MATH/"
+      },
+      {
+        name: "Event scheduler",
+        description: "This is a simple Event scheduler lol this was a test site but im going to put it here anyways lol  ",
+        category: "app",
+        image: "website6.png",
+        url: "https://criadormods.github.io/Event-Scheduler/"
       }
     ];
     const websitesContainer = document.getElementById("websites");
