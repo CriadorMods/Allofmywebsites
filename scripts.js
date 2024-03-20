@@ -41,6 +41,13 @@ document.addEventListener("DOMContentLoaded", function() {
         category: "app",
         image: "website6.png",
         url: "https://criadormods.github.io/Event-Scheduler/"
+      },
+      {
+        name: "Simple Online Chat",
+        description: "My first web site using my own backend that works btw u can test it lol u may even find someone lol, (ITS A FULLY ANONYMUS CHAT BTW SO NO LOGIN NO USERNAME NO NOTHING!)",
+        category: "web",
+        image: "website7.png",
+        url: "https://simplechat-3d4c6d3eeef8.herokuapp.com/"
       }
     ];
     const websitesContainer = document.getElementById("websites");
