@@ -62,6 +62,13 @@ document.addEventListener("DOMContentLoaded", function() {
         category: "web",
         image: "website8.png",
         url: "https://criadormods.github.io/Interactive-Map/"
+      },
+      {
+        name: "Movie & Games",
+        description: "search movies and games lol just that.",
+        category: "web",
+        image: "website10.png",
+        url: "https://criadormods.github.io/Movie-Games/"
       }
     ];
     const websitesContainer = document.getElementById("websites");
