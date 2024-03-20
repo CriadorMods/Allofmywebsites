@@ -48,6 +48,13 @@ document.addEventListener("DOMContentLoaded", function() {
         category: "web",
         image: "website7.png",
         url: "https://simplechat-3d4c6d3eeef8.herokuapp.com/"
+      },
+      {
+        name: "Interactive Map",
+        description: "This was just a test to see if i could do it lol still cool tho.",
+        category: "web",
+        image: "website8.png",
+        url: "https://criadormods.github.io/Interactive-Map/"
       }
     ];
     const websitesContainer = document.getElementById("websites");
