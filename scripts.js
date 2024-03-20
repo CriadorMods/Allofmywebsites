@@ -8,6 +8,13 @@ document.addEventListener("DOMContentLoaded", function() {
         url: "https://criadormods.github.io/Png-To-Favicon.Ico/"
       },
       {
+        name: "JPEG TO PNG ",
+        description: "A simple online .PNG image converter. It will take any JPEG image and convert it to PNG file has alot of new features aswell like a compression slide so you can optimize you image.",
+        category: "web",
+        image: "website9.png",
+        url: "https://criadormods.github.io/JPEG-TO-PNG/"
+      },
+      {
         name: "To-Do-List",
         description: "A simple List where you can list thing you want to do till X date:)",
         category: "web",
